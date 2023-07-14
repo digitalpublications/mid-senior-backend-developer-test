@@ -11,20 +11,20 @@
     - Σχεδίασε 2 πίνακες δικούς σου
     - Μπορείς να κάνεις χρήση των `hooks` του `Wordpress` για το parsing του request ή και όχι
   - Θα πρέπει στο κατάλληλο `hook` να ελέγχει αν υπάρχει το `Woocommerce` plugin και να το ενεργοποιεί
-  - Στις σελίδες των `Product Attributes` του `Woocoomerce` (add/edit) να προσθέτει ενα εξτρά πεδίο τύπου `text` με όνομα `Attribute Product View Label` και να αποθηκεύει την τιμή του
+  - Στις σελίδες των `Product Attributes` του `Woocoomerce` (add/edit) να προστέθει ενα εξτρά πεδίο τύπου `text` με όνομα `Attribute Product View Label` και να αποθηκεύει την τιμή του
 
 ---
 **Προαπαιτούμενα:**
 
-- H βάση δεδομένων θα πρέπει να βρίσκεται στο host του container
-- Να χρησιμοποιηθεί ένα `Linux Alpine` image
+- Να χρησιμοποιηθεί `docker-compose`
+- Να χρησιμοποιηθεί ένα `Linux Alpine` image και όχι έτοιμο `Wordpress` image
 - Να χρησιμοποιηθεί `PHP` >= 8.0
-- Για `Web Server` να χρησιμοποιηθεί ο `Nginx`
+- Για web server να χρησιμοποιηθεί ο `Nginx`
 - Να εγκατασταθεί το `Wordpress` με τη χρήση `Composer`
 - Να εγκατασταθεί το `Woocommerce` με τη χρήση `Composer`
 - Τo `wp-config.php` θα πρέπει να αποτελεί μέρος του repo και οι ρυθμίσεις να δίνονται από ένα `.env` αρχείο 
 - Το `port` που τρέχει ο container θα δηλώνεται στο `.env`
-- Ο container και τα όποια apps του θα πρέπει να ονοματίζονται από το `.env`
+- Ο container και τα όποια apps του (wordpress, mysql) θα πρέπει να ονοματίζονται από το `.env`
 - Θα πρέπει να χρησιμοποιηθεί κάποιο `Template Engine` για το front-end του admin
 - Θα πρέπει να γίνει χρήση του `Property Promotion` της `PHP` 8.0, όπου μπορεί να χρησιμοποιηθεί
 - Θα πρέπει να γίνει χρήση της σχεδιαστικής προσέγγισης `Dependency Injection` με τη βοήθεια κάποιας βιβλιοθήκης που κάνει implement το `PSR-11` `ContainerInterface`, όπου μπορεί να χρησιμοποιηθεί
