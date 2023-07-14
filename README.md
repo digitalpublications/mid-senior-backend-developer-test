@@ -40,7 +40,7 @@
   - Να γραφτεί ένα mini app (με custom κώδικα ή ετοιμες λύσεις του framework):
     - Που έχει login/authentication με τη χρήση βάσης δεδομένων
     - Ενα υποτυπώδες μενού για τις παρακάτω σελίδες:
-      - Όλες αφορούν ένα entity `Product Attribute` με τις ιδιότητες: (type<enum>, name<string>, label<string>. To enum field έχει πιθανές τιμές: Color, Button, Label)
+      - Όλες αφορούν ένα entity `Product Attribute` με τις ιδιότητες: (type(enum), name(string), label(string). To enum field έχει πιθανές τιμές: Color, Button, Label)
       - Μία σελίδα για listing με pagination
       - Μία σελίδα για create
       - Μία σελίδα για update/delete
