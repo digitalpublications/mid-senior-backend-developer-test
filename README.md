@@ -46,7 +46,7 @@
       - Μία σελίδα για update/delete
         - Το update του `type` δεν είναι δυνατό μετά τη δημιουργία του entity και την αποθήκευσή του
       - Θα εκτιμηθεί αρκετά η χρήση `Redis` ή κάποιας άλλης cache για το read και η αντίστοιχη προσέγγιση για cache invalidation όπου χρειάζεται
-      - Μπορεί να χρησιμοποιηθεί AJAX (με ή χωρίς framwork) με τη χρήση API endpoints ή μια καθαρά backend προσέγγιση με form submits. Η ασφάλεια είναι **ΠΟΛΥ** σημαντική (authentication με session ή jwt, sql injection, κτλ)
+      - Μπορεί να χρησιμοποιηθεί `AJAX` (με ή χωρίς framework) με τη χρήση API endpoints ή μια καθαρά backend προσέγγιση με form submits. Η ασφάλεια είναι **ΠΟΛΥ** σημαντική (authentication με session ή `jwt` & sql injection)
 
 ---
 **Χρόνος Παράδοσης:**
