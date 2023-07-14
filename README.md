@@ -10,7 +10,7 @@
     - Να υπάρχει basic authentication. Το username/password να είναι παραμετροποιήσιμα (βλ. `.env` παρακάτω) 
     - Θα προτιμούσαμε το `Phinx` ως πακέτο migration, αλλά μπορείς να επιλέξεις όποιο άλλο θέλεις
     - Σχεδίασε 3 πίνακες δικούς σου και χρησιμποίησε τεχνικές κανονικοποίησης για να δηλώσεις σχέσεις μεταξύ τους (πχ `product`, `category`, `product_to_category`)
-    - Μπορείς να κάνεις χρήση των `hooks` του `Wordpress` για το parsing του request ή να χρησιμοποιήσεις router ή και κάτι custom
+    - Μπορείς να κάνεις χρήση των `hooks` του `Wordpress` για το parsing του request ή να χρησιμοποιήσεις router ή μία custom προσέγγιση
   - Θα πρέπει στο κατάλληλο `hook` να ελέγχει αν υπάρχει το `Woocommerce` plugin και να το ενεργοποιεί
   - Στις σελίδες των `Product Attributes` του `Woocoomerce` (add/edit) να προστέθει ενα εξτρά πεδίο τύπου `text` με όνομα `Attribute Product View Label` και να αποθηκεύει την τιμή του
 
